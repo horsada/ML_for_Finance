@@ -1,0 +1,20 @@
+service: get-finance-data
+
+provider:
+  name: aws
+  runtime: python3.8
+  region: eu-west-2
+
+functions:
+  get-finance-data:
+    name: get-finance-data
+    handler: main.handler
+    events:
+      - http:
+          path: /
+          method: GET
+    timeout: 300
+
+plugins:
+  - serverless-python-requirements
+  - serverless-vpc-discovery

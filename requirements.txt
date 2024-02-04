@@ -1,0 +1,10 @@
+numpy
+pandas
+fastdtw
+dtw
+matplotlib
+scipy
+networkx
+statsmodels
+scikit-learn
+seaborn

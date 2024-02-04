@@ -1,0 +1,4 @@
+AWS_PROFILE=horsada
+AWS_REGION=eu-west-2
+S3_BUCKET=horsada-ml-for-finance-eu-west-2
+S3_FOLDER=finance-data
